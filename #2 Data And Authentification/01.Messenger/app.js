@@ -33,7 +33,6 @@ function attachEvents() {
     let result = await responce.json();
   }
 
-  //"{author}: {message}"
   async function getData(e) {
     let responce = await fetch(`http://localhost:3030/jsonstore/messenger`);
     let result = await responce.json();
